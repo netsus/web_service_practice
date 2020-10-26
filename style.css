@@ -392,8 +392,8 @@ body {
 /* gender */
 #app-cover
 {
-    position: absolute;
-    top: 20%;
+    position: relative;
+    top: 30%;
     right: 0;
     left: 0;
     width: 283px;
@@ -562,7 +562,6 @@ body {
     50%{ left: 5px; }
     100%{ left: 0; }
 }
-
 /* gender fin */
 .ad-banner {
     max-width: 320px;
