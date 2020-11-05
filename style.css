@@ -388,8 +388,23 @@ body {
     color: #31849b;
     font-size: 1.2rem;
 }
+/* gender start */
+* {
+    outline: none;
+    -webkit-tap-highlight-color:transparent;
+}
 
-/* gender */
+html, body
+{
+    height: 100%;
+    min-height: 100%;
+}
+body
+{
+    margin: 0;
+    /* background-color: #7aa0ff; */
+}
+
 #app-cover
 {
     position: relative;
@@ -399,6 +414,7 @@ body {
     width: 283px;
     height: 130px;
     margin: -65px auto 0 auto;
+    /* transform: scale(0.5,0.5); */
 }
 
 #checkbox
@@ -563,6 +579,6 @@ body {
     100%{ left: 0; }
 }
 /* gender fin */
-.ad-banner {
+/* .ad-banner {
     max-width: 320px;
-}
+} */
